@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { TfiMenu } from "react-icons/tfi";
 import logo from "../../assets/sddefault-removebg-preview.png"
+import "../Navber/navber.css"
+
 const links = [
     {
         id:1,
@@ -41,7 +43,7 @@ const links = [
 const Navber = () => {
     return (
         <div className="px-4 md:px-12">
-            <div className="navbar bg-transparent">
+            <div className="navbar">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -1,0 +1,9 @@
+.navbarss {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  .content {
+    padding-bottom: 500px;
+  }
