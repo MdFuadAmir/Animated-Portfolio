@@ -1,4 +1,10 @@
 import image from "../../assets/fuad-removebg-preview.png"
+import { IoCloudDownloadOutline } from "react-icons/io5";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaBasketball } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -12,9 +18,24 @@ const Hero = () => {
                 <h1 className="text-4xl md:text-6xl font-bold">UX Designer</h1>
                 </div>
                 <p className=" mt-6 text-lg font-medium">I break down complex user experinece problems to  create integritiy focussed solutions that connect billions of people</p>
-                <div>
-
-
+                <div className="mt-12 flex flex-col-reverse lg:flex-row gap-8 items-center">
+                    <div>
+                    <button className="btn btn-outline text-purple-700 text-lg font-bold rounded-full px-6 flex items-center gap-4">Downloade CV<IoCloudDownloadOutline/></button>
+                    </div>
+                    <div className="flex gap-6">
+                        <Link>
+                        <FaFacebookF size={40} className="p-2 text-purple-500 border rounded-full border-purple-500 hover:text-white"/>
+                        </Link>
+                        <Link>
+                        <FaBasketball size={40} className="p-2 text-purple-500 border rounded-full border-purple-500 hover:text-white"/>
+                        </Link>
+                        <Link>
+                        <FaLinkedinIn size={40} className="p-2 text-purple-500 border rounded-full border-purple-500 hover:text-white"/>
+                        </Link>
+                        <Link>
+                        <IoLogoGithub size={40} className="p-2 text-purple-500 border rounded-full border-purple-500 hover:text-white"/>
+                        </Link>
+                    </div> 
                 </div>
                 </div>
                 {/* right side image */}
