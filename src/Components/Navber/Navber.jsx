@@ -7,37 +7,58 @@ const links = [
     {
         id:1,
         path:"/",
-        name:"Home"
+        name:<p className="group relative">
+        <span>Home</span>
+        <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-gradient-to-l from-purple-600 to-gray-900 group-hover:w-full"></span>
+        </p>
     },
     {
         id:2,
         path:"/services",
-        name:"Services"
+        name:<p className="group relative">
+        <span>Services</span>
+        <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-gradient-to-l from-purple-600 to-gray-900 group-hover:w-full"></span>
+        </p>
     },
     {
         id:3,
         path:"/works",
-        name:"Works"
+        name:<p className="group relative">
+        <span>Works</span>
+        <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-gradient-to-l from-purple-600 to-gray-900 group-hover:w-full"></span>
+        </p>
     },
     {
         id:4,
         path:"/resume",
-        name:"Resume"
+        name:<p className="group relative">
+        <span>Resume</span>
+        <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-gradient-to-l from-purple-600 to-gray-900 group-hover:w-full"></span>
+        </p>
     },
     {
         id:5,
         path:"/skill",
-        name:"Skill"
+        name:<p className="group relative">
+        <span>Skill</span>
+        <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-gradient-to-l from-purple-600 to-gray-900 group-hover:w-full"></span>
+        </p>
     },
     {
         id:6,
         path:"/testmonials",
-        name:"Testmonials"
+        name:<p className="group relative">
+        <span>Trestmonials</span>
+        <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-gradient-to-l from-purple-600 to-gray-900 group-hover:w-full"></span>
+        </p>
     },
     {
         id:7,
         path:"/contact",
-        name:"Contact"
+        name:<p className="group relative">
+        <span>Contact</span>
+        <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-gradient-to-l from-purple-600 to-gray-900 group-hover:w-full"></span>
+        </p>
     },
 ]
 const Navber = () => {

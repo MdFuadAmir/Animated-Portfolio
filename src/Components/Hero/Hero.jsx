@@ -12,15 +12,15 @@ const Hero = () => {
             <div className="flex flex-col-reverse md:flex-row text-white gap-6 items-center">
                 <div className="w-full md:w-1/2 pl-0 lg:pl-12">
                 <h1 className="text-3xl font-bold font-mono">I am Fuad</h1>
-                <div className="space-y-2 mt-3">
-                <h1 className="text-4xl md:text-6xl font-bold">Web</h1>
-                <h1 className="text-4xl md:text-6xl font-bold">Developer +</h1>
-                <h1 className="text-4xl md:text-6xl font-bold">UX Designer</h1>
+                <div className="space-y-2 mt-3 flex flex-col">
+                <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-purple-300 to-white inline-block text-transparent bg-clip-text">Web</h1>
+                <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-purple-300 to-white inline-block text-transparent bg-clip-text">Developer +</h1>
+                <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-purple-300 to-white inline-block text-transparent bg-clip-text">UX Designer</h1>
                 </div>
                 <p className=" mt-6 text-lg font-medium">I break down complex user experinece problems to  create integritiy focussed solutions that connect billions of people</p>
                 <div className="mt-12 flex flex-col-reverse lg:flex-row gap-8 items-center">
                     <div>
-                    <button className="btn btn-outline text-purple-700 text-lg font-bold rounded-full px-6 flex items-center gap-4">Downloade CV<IoCloudDownloadOutline/></button>
+                    <button className="btn btn-outline text-purple-700 text-lg font-bold rounded-full px-6 flex items-center gap-4 hover:bg-purple-500">Downloade CV<IoCloudDownloadOutline/></button>
                     </div>
                     <div className="flex gap-6">
                         <Link>
