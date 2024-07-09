@@ -1,10 +1,10 @@
+import Quality from "../../Components/Quality/Quality";
 
 
 const Services = () => {
     return (
         <div>
-            Services
-            
+            <Quality/>
         </div>
     );
 };

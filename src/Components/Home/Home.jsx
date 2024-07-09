@@ -4,6 +4,7 @@ import Hero from "../Hero/Hero";
 import "../Navber/navber.css"
 import Quality from "../Quality/Quality";
 import RecentWorks from "../RecentWorks/RecentWorks";
+import Skill from "../Skill/Skill";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Quality/>
             <RecentWorks/>
             <Experience/>
+            <Skill/>
         </div>
     );
 };
