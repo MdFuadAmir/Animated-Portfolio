@@ -1,4 +1,5 @@
 import Client from "../Client/Client";
+import Experience from "../Experience/Experience";
 import Hero from "../Hero/Hero";
 import "../Navber/navber.css"
 import Quality from "../Quality/Quality";
@@ -11,6 +12,7 @@ const Home = () => {
             <Client/>
             <Quality/>
             <RecentWorks/>
+            <Experience/>
         </div>
     );
 };

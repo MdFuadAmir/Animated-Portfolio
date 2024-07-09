@@ -66,7 +66,7 @@ const RecentWorks = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {
                         datalist.map((data) => <div key={data.id} className="p-6 bg-[#140b1c] rounded-xl">
-                            <img src={data.img} alt="" className=""/>
+                            <img src={data.img} alt="" className=" rounded-2xl"/>
                             <div className=" mt-4 overflow-hidden">
                             <div className="flex items-center bg-gradient-to-r from-purple-500 via-purple-700 to-purple-900 p-4 rounded-xl ">
                                 <div className=" space-y-3">
