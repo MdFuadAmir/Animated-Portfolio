@@ -2,6 +2,7 @@ import Client from "../Client/Client";
 import Hero from "../Hero/Hero";
 import "../Navber/navber.css"
 import Quality from "../Quality/Quality";
+import RecentWorks from "../RecentWorks/RecentWorks";
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero/>
             <Client/>
             <Quality/>
+            <RecentWorks/>
         </div>
     );
 };

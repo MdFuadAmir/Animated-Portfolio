@@ -13,7 +13,7 @@ const Quality = () => {
                 {/* card 1 */}
                 <div className="flex flex-col md:flex-row items-center justify-between border-b border-purple-700 p-4 group gap-6 hover:scale-105 duration-500">
                     <div>
-                        <p className="font-bold text-xl text-purple-500">01</p>
+                        <p className="font-bold text-xl text-purple-500 group-hover:text-white">01</p>
                         <h1 className="font-bold text-2xl md:text-3xl text-white">Branding Design</h1>
                     </div>
                     <div className="w-full md:w-1/2 text-white"><p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p></div>
@@ -24,7 +24,7 @@ const Quality = () => {
                 {/* card 2 */}
                 <div className="flex flex-col md:flex-row items-center justify-between border-b border-purple-700 p-4 group gap-6 hover:scale-105 duration-500">
                     <div>
-                        <p className="font-bold text-xl text-purple-500">02</p>
+                        <p className="font-bold text-xl text-purple-500 group-hover:text-white">02</p>
                         <h1 className="font-bold text-2xl md:text-3xl text-white">Web Design</h1>
                     </div>
                     <div className="w-full md:w-1/2 text-white"><p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p></div>
@@ -35,7 +35,7 @@ const Quality = () => {
                 {/* card 3 */}
                 <div className="flex flex-col md:flex-row items-center justify-between border-b border-purple-700 p-4 group gap-6 hover:scale-105 duration-500">
                     <div>
-                        <p className="font-bold text-xl text-purple-500">03</p>
+                        <p className="font-bold text-xl text-purple-500 group-hover:text-white">03</p>
                         <h1 className="font-bold text-2xl md:text-3xl text-white">UI/UX Design</h1>
                     </div>
                     <div className="w-full md:w-1/2 text-white"><p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p></div>
@@ -46,7 +46,7 @@ const Quality = () => {
                 {/* card 4 */}
                 <div className="flex flex-col md:flex-row items-center justify-between border-b border-purple-700 p-4 group gap-6 hover:scale-105 duration-500">
                     <div>
-                        <p className="font-bold text-xl text-purple-500">04</p>
+                        <p className="font-bold text-xl text-purple-500 group-hover:text-white">04</p>
                         <h1 className="font-bold text-2xl md:text-3xl text-white">Graphics Design</h1>
                     </div>
                     <div className="w-full md:w-1/2 text-white"><p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p></div>
