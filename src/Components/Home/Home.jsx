@@ -1,3 +1,4 @@
+import Blog from "../Blog/Blog";
 import Client from "../Client/Client";
 import Experience from "../Experience/Experience";
 import Hero from "../Hero/Hero";
@@ -15,6 +16,7 @@ const Home = () => {
             <RecentWorks/>
             <Experience/>
             <Skill/>
+            <Blog/>
         </div>
     );
 };
