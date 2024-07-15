@@ -67,20 +67,19 @@ const RecentWorks = () => {
                     {
                         datalist.map((data) => <div key={data.id} className="p-6 bg-[#140b1c] rounded-xl">
                             <img src={data.img} alt="" className=" rounded-2xl"/>
-                            <div className=" mt-4 overflow-hidden">
+                            <div className="mt-4">
                             <div className="flex items-center bg-gradient-to-r from-purple-500 via-purple-700 to-purple-900 p-4 rounded-xl ">
                                 <div className=" space-y-3">
                                     <h1 className="text-4xl font-bold  text-white">
                                     <Link to={data.path}>{data.name}</Link>
                                     </h1>
-                                    <p className="text-white">{data.discription}</p>
+                                    <p className="text-white text-sm">{data.discription}</p>
                                 </div>
                                 <FiArrowDownRight size={100} color="white"/>
                             </div>
-                            </div>                   
+                            </div> 
                         </div>)
                     }
-
                 </div>
             </div>
 
